@@ -14,11 +14,15 @@ Just include the library JavaScript
 Add the cacheTime parameter to jQuery AJAX calls
 The cacheTime parameter is in SECONDS
 
+```
 $.ajax({
     url: "http://www.example.com"
     ,cacheTime: 900
 });
-
+```
+```
+    cacheTime:900 
+```
 
 Please refer to jQuery's AJAX Documentation if you need further help
 http://api.jquery.com/jQuery.ajax/
