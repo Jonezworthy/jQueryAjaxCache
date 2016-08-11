@@ -6,8 +6,9 @@ Must have jQuery > 1.5.0
 
 There are no know issues with jQuery 1.7.2 
 
-#Install
-Just include the library JavaScript
+#Install/Download
+http://www.redditchweb.co.uk/dev/ajaxCache/ajaxCache-1.2.4.js 
+Just include the library JavaScript (I recommend you download it and host it your self)
 
 #How to use
 
@@ -18,6 +19,9 @@ The cacheTime parameter is in SECONDS
 $.ajax({
     url: "http://www.example.com"
     ,cacheTime: 900
+    , success: function(resp){
+        console.log(resp);
+    }
 });
 ```
 ```
