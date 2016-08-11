@@ -26,3 +26,15 @@ $.ajax({
 
 Please refer to jQuery's AJAX Documentation if you need further help
 http://api.jquery.com/jQuery.ajax/
+
+#How to clear users's caches
+If you increment ajaxCache.versionNumber in your script after ajaxCache is loaded in, this will force anyone who has an older cache to get the new content
+
+
+```
+ajaxCache.versionNumber = 3;
+```
+
+
+#Extra info
+ajaxCache utilises the localStorage API available in modern browsers
